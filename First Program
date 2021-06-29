@@ -1,0 +1,25 @@
+import java.util.*;
+class Sort1
+{
+	public static void main(String arg[])
+	{
+	int arr[]={5,10,-2,0,8};
+	System.out.println(" Before sorting ");
+	for(int i:arr)
+		System.out.print(i+" ");
+	Arrays.sort(arr);
+	System.out.println(" After sorting ");
+	for(int i:arr)
+		System.out.print(i+" ");
+	}
+}
+
+-----------------------------------------------
+Output
+:\Practice>javac Sort1.java
+
+D:\Practice>java Sort1
+ Before sorting
+5 10 -2 0 8  After sorting
+-2 0 5 8 10
+D:\Practice>
