@@ -1,0 +1,23 @@
+Class Programs
+--------------
+	1.Read and write 1D array
+
+	2.Rad and write in reverse order of 1D array
+
+	3.to print even numbers only
+
+	4.to print odd numbers only
+
+	5.to print sum of even no's only
+
+	6.to print sum of odd no's only
+
+	7.to print negitive no's from array
+	
+	8.Find the min and max elements from array
+----------------------------------------------------
+Assignment Programs
+
+	1. Findout the second largest element in the array
+	2. Sum of array elements
+	3. Find out odd no's in array and display in ascending order
