@@ -1,0 +1,39 @@
+Assignment programs
+---------------------------------
+Print the following pattern
+input:
+N=5
+output:
+* * * * *
+* * * *
+* * * 
+* *
+*
+
+print the pattern
+
+input:
+N=5
+
+output:
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * * 
+* *
+*
+
+print the pattern
+
+input:N=5
+
+ouput
+
+A
+B C
+D E F
+G H I J
+K L M N O

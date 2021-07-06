@@ -1,0 +1,11 @@
+Class Teacher : PNS Sir
+Assignment programs 
+--------------------
+Program-1
+https://www.codechef.com/problems/PPATTERN
+
+Program-2
+https://www.codechef.com/problems/DECINC
+
+Program-3
+https://www.codechef.com/problems/FCTRL2

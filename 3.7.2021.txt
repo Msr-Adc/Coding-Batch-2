@@ -1,0 +1,87 @@
+Assignment programs  -- Date: 03-07-2021(Nested Forloop)
+--------------------------------------------------------
+1. Write a program to design following pattern:
+Input: N=4
+Output:
+A  A  A   A  A  A  A
+A  B  B  B  B  B  A
+A  B  C  C  C  B  A
+A  B  C  D  C  B  A
+A  B  C  C  C  B  A
+A  B  B  B  B  B  A
+A  A   A   A  A  A  A
+
+2. Write a program to design following pattern:
+Input: N=4
+Output:
+          *
+
+       *  *  *
+
+    *  *  *  *  *
+
+ *  *  *  *  *  *  *
+
+    *  *  *  *  *
+
+       *  *  *
+
+          *
+
+3. Program to print given number is Automorphic Number or not. 
+A number is called Automorphic number if and only if its square ends in the same digits as the number itself.
+Examples : 
+ 
+Input  : N = 76 
+Output : Automorphic
+Explanation: As 76*76 = 5776
+
+Input  : N = 25
+Output : Automorphic
+As 25*25 = 625
+
+Input : N = 7
+Output : Not Automorphic
+As 7*7 = 49
+---------------------------------------------
+class programms
+-----------------------------------------
+1.Happy Number 
+
+class Solution {
+    public boolean isHappy(int n) {
+          while(n>=10){
+         n=findsquaressum(n);
+     }   
+        return n==1||n==7;
+    }
+    int findsquaressum(int n){
+        int res=0;
+        while(n>0){
+            res+=(n%10)*(n%10);
+            n/=10;
+        }
+        return res;
+    }
+}
+--------------------------
+right hallow parallogram
+-----------------------
+public class Main
+{
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++)
+		{
+		    for(int j=1;j<=5;j++)
+		    {
+		        if(i==1 || i==5 || j==1 || j==5)
+		          System.out.print("*");
+		        else 
+		        System.out.print(" ");
+		    }
+		    System.out.println();
+		    
+		}
+	}
+}
+---------------------------------
