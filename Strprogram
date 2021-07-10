@@ -1,0 +1,28 @@
+import java.util.*; 
+class strprogram { 
+public static void main(String args[]) { 
+String str; 
+Scanner sc=new Scanner(System.in); 
+System.out.print("Enter string:"); 
+str=sc.next(); 
+int u=0,l=0,d=0,s=0; 
+char ch[]=str.toCharArray(); 
+for(int i=0;i<ch.length;i++) { 
+if(Character.isUpperCase(ch[i])) 
+u++; 
+else if(Character.isLowerCase(ch[i])) 
+l++; 
+else if(Character.isDigit(ch[i])) 
+d++; 
+else s++; 
+} 
+System.out.println("Total no of Upper:"+u); 
+System.out.println("Total no of Lower:"+l); 
+System.out.println("Total no of Digits:"+d); 
+System.out.println("Total no of Symbols:"+s); 
+if(u==l||l==d||d==s)
+System.out.println("yes"); 
+else
+System.out.println("no"); 
+}
+}
