@@ -1,0 +1,19 @@
+class FactorialByRecursion
+{
+static int fact=1
+public static void main (string args [])
+{
+ int no=5;
+FactorialByRecursion ob=new FactorialByRecursion ();
+ob.calcFact(no);
+System.out.pribtln("factorial of"+no+"is"+fact);
+}
+void calcFact(int no)
+{
+if(no>=1)
+{
+fact=fact*no;
+calcFact(no-1);
+}
+}
+}
